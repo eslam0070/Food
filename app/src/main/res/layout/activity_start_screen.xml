@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".StartScreenActivity"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView21"
+        android:layout_width="67dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="93dp"
+        android:src="@drawable/tomato" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView20"
+        android:layout_width="65dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="424dp"
+        android:src="@drawable/mushroom" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView19"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="454dp"
+        android:src="@drawable/cheese" />
+
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/startButton"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/get_started"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView7"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="143dp"
+        android:src="@drawable/capsicun" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView8"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/brocoli" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView9"
+        android:layout_width="95dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="27dp"
+        android:src="@drawable/bread" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView10"
+        android:layout_width="99dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="495dp"
+        android:src="@drawable/fork" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView11"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="139dp"
+        android:src="@drawable/mushroom" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView12"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/cheese" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView13"
+        android:layout_width="57dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="475dp"
+        android:src="@drawable/carrot" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView15"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/salt" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView16"
+        android:layout_width="72dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/onion" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView17"
+        android:layout_width="61dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="457dp"
+        android:src="@drawable/tomato" />
+</RelativeLayout>
